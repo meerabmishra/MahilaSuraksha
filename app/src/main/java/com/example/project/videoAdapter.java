@@ -26,7 +26,7 @@ public class videoAdapter extends RecyclerView.Adapter<videoAdapter.VideoViewHol
 
 
     @Override
-    public videoAdapter.VideoViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {
+    public VideoViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {
       View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.video_view,parent, false);
       return new VideoViewHolder(view);
 
@@ -34,7 +34,7 @@ public class videoAdapter extends RecyclerView.Adapter<videoAdapter.VideoViewHol
     }
     @Override
     public void onBindViewHolder(VideoViewHolder holder, int position) {
-                                                                                                                                                                                                   holder.videoWeb.loadData( youTubeVideosList.get(position).getVideoUrl(), "text/html" , "utf-8");
+      holder.videoWeb.loadData(youTubeVideosList.get(position).getVideoUrl(), "text/html", "utf-8");                                                                                                                                                                                             holder.videoWeb.loadData( youTubeVideosList.get(position).getVideoUrl(), "text/html" , "utf-8");
     }
     @Override
     public int getItemCount() { return youTubeVideosList.size();}
@@ -46,8 +46,7 @@ public class videoAdapter extends RecyclerView.Adapter<videoAdapter.VideoViewHol
 
             videoWeb = (WebView) itemView.findViewById(R.id.videoWebView);
             videoWeb.getSettings().setJavaScriptEnabled(true);
-            videoWeb.getSettings().setDomStorageEnabled(true);
-            videoWeb.clearCache(true);
+
             videoWeb.setWebChromeClient(new WebChromeClient() {
         } );
     }

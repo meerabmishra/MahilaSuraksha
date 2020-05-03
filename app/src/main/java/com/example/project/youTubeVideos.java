@@ -6,10 +6,12 @@ public class youTubeVideos {
 
     }
 
-    public youTubeVideos(String videoUrl) {
+    public youTubeVideos(String videoUrl)
+    {
         this.videoUrl = videoUrl;
     }
-     public String getVideoUrl() {
+     public String getVideoUrl()
+     {
         return videoUrl;
      }
 

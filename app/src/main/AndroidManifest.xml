@@ -22,7 +22,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+       >
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -34,13 +34,8 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".main_page" />
-        <activity android:name=".Display" />
-        <activity android:name=".Instruction" />
-        <activity android:name=".verify" />
-        <activity android:name=".register" />
         <activity android:name=".word" />
         <activity android:name=".stalking" />
         <activity android:name=".voyeurism" />
