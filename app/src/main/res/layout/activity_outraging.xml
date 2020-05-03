@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".outraging">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/outraging_the_modesty_of_women_section_354"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/padding"
+            android:id="@+id/tv5"
+            android:text="@string/outraging_laws"
+            android:lineSpacingExtra="5sp"
+            />
+    </ScrollView>
+
+
+
+</RelativeLayout>

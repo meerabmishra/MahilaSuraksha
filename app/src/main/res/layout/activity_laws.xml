@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laws">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="@dimen/padding"
+        android:id="@+id/tv3"
+        android:text="@string/laws"
+        android:lineSpacingExtra="5sp"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/acid" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/rape" />
+
+        <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+            android:layout_below="@id/button2"
+
+        android:layout_marginTop="20dp"
+
+            android:gravity="center"
+        android:text="@string/kidnapping" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+        android:text="@string/murder" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/button4"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/cruelity" />
+
+        <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button5"
+        android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/outraging" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button6"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/sexual" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button7"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/assault" />
+
+
+
+        <Button
+        android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button8"
+
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/voyeurism" />
+
+
+        <Button
+        android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button9"
+
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/stalking"/>
+
+
+
+        <Button
+           android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button10"
+
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/word"/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

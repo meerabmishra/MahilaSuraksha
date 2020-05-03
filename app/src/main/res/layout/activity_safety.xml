@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".safety">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/tips_regarding_women_safety"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:padding="@dimen/padding"
+            android:id="@+id/tv2"
+            android:text="@string/paragraph"
+            android:lineSpacingExtra="5sp"
+            />
+    </ScrollView>
+
+
+</RelativeLayout>
